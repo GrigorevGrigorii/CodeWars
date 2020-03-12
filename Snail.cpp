@@ -1,3 +1,5 @@
+#include <vector>
+
 std::vector<int> snail(std::vector<std::vector<int>> snail_map) {
 int n = snail_map.size();
   if (n == 1)return snail_map[0];
