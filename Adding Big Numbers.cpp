@@ -1,7 +1,7 @@
 #include <string>
 
 std::string add(const std::string& a, const std::string& b) {
-  std::string sumstr = "";
+    std::string sumstr = "";
     std::string c = a, d = b;
     while (c.size() != d.size()) {
         if (c.size() < d.size()) c = "0" + c;
